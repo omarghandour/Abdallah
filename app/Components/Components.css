@@ -1,0 +1,58 @@
+.Mainee{
+        height: 100%;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+@media (min-width: 700px) {
+          .card{
+                    width: 85%;
+                    height: 85%;
+          /* From https://css.glass */
+          background: rgba(255, 255, 255, 0.34);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(5.5px);
+          -webkit-backdrop-filter: blur(5.5px);
+          
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    
+          }
+          .txt h1{
+                    font-size: 60px;
+          }
+          .txt h1,
+                    .txt h2,
+                    .txt p{
+                              text-align: center !important;
+                              color: #000;
+                    }
+}
+@media (max-width: 700px) {
+          .card{
+                    width: 85%;
+                    height: 85%;
+          /* From https://css.glass */
+          
+                    border-radius: 10px;
+                    display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+          
+          }
+          .txt h1{
+                    font-size: 60px;
+          }
+          .txt h1,
+          .txt h2,
+          .txt p{
+                    text-align: left;
+          }  
+}
+.location{
+          width: 100px;
+}
