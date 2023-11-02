@@ -6,7 +6,9 @@ padding: 0;
 .pg{
    height: 100%;
    background-image: url('../public/photo_5917860666805436909_x.jpg');
-   background-position: bottom;
+   background-position: top;
+   background-size: 140%;
+   background-repeat: no-repeat
 }
 *{
           color: white;
