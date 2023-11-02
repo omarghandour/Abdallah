@@ -5,11 +5,16 @@ padding: 0;
 }
 .pg{
    height: 100%;
-   background-image: url('../public/photo_5917860666805436909_x.jpg');
-   background-position: top;
-   background-size: 140%;
-   background-repeat: no-repeat
+   background-image: url('../public/WhatsApp\ Image\ 2023-10-28\ at\ 11.03.38\ PM.jpeg');
+   background-size: 72%;
+   background-repeat: no-repeat;
+   background-position: 144%;
 }
 *{
           color: white;
+}
+@media (max-width: 700px) {
+   .pg{
+      background-image: none;
+    }
 }

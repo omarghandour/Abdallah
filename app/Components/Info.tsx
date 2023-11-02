@@ -4,13 +4,12 @@ const Info = () => {
   return (
      <div className='Home'>
      <div className="hRight">
-          {/* <img src="/next.svg" alt="" />
-          <img src="/vercel.svg" alt="" /> */}
-                    <h1 style={{fontSize: '60px', margin: '0'}}>Toxic</h1>
-          <h1 style={{fontSize: '25px', margin: '0'}}>SANDWICH & POTATOES</h1>
+           <img src="/WhatsApp Image 2023-10-28 at 11.03.38 PM.jpeg" alt="" />
+                    
      </div>
      <div className="hLeft">
-
+     <h1 style={{fontSize: '60px', margin: '0'}}>Toxic</h1>
+          <h1 style={{fontSize: '25px', margin: '0'}}>SANDWICH & POTATOES</h1>
           <p>Are you hungry ??!</p>
           <a className='number' href="tel:01551191571"><h2>01551191571</h2></a>
           {/* <a  className='number'  href="tel:01093713940"><h2>01093713940</h2></a> */}
