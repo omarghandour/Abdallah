@@ -34,14 +34,12 @@
 }
 @media (max-width: 700px) {
           .card{
-                    width: 85%;
-                    height: 85%;
-          /* From https://css.glass */
-          
-                    border-radius: 10px;
-                    display: flex;
-              flex-direction: column;
-              justify-content: space-evenly;
+        width: 85%;
+    height: 85%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
           
           }
           .txt h1{
