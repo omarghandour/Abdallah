@@ -1,56 +1,89 @@
-.Mainee{
-        height: 100%;  
+.first{
+        height: 100vh;
+   }
+      .Home{
+        display: -ms-flexbox;
         display: flex;
+        height: 100%;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+      }
+      .hRight{
+        margin: 100px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 35%;
+      }
+      .hRight img{
+        width: 200px;
+      }
+      .icon{
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+      }
+      .hLeft{
+        background-color: black;
+        width: 60%;
+        height: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-}
-@media (min-width: 700px) {
-          .card{
-                    width: 85%;
-                    height: 85%;
-          /* From https://css.glass */
-          background: rgba(255, 255, 255, 0.34);
-          border-radius: 16px;
-          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-          backdrop-filter: blur(5.5px);
-          -webkit-backdrop-filter: blur(5.5px);
-          
-                    border-radius: 10px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    
-          }
-          .txt h1{
-                    font-size: 60px;
-          }
-          .txt h1,
-                    .txt h2,
-                    .txt p{
-                              text-align: center !important;
-                              color: #000;
-                    }
-}
-@media (max-width: 700px) {
-          .card{
-        width: 85%;
-    height: 85%;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-          
-          }
-          .txt h1{
-                    font-size: 60px;
-          }
-          .txt h1,
-          .txt h2,
-          .txt p{
-                    text-align: left;
-          }  
-}
-.location{
-          width: 100px;
-}
+        justify-content: flex-start;
+        gap: 5px;
+        padding-top: 35px;
+      }
+      .hLeft h1,
+      .hLeft h2{
+        color: white;
+        text-align: center  ;
+      }
+      .icon img{
+        width: 70px;
+      }
+      .btn button{
+        background-color: #ED3237;
+        border: none;
+        border-radius: 7px;
+        font-size: 20px;
+        width: 160px;
+        margin-top: 10px;
+        height: 40px;
+        color: white;
+      }
+      .btn button:hover{
+        background-color: #ac2a2ec5;
+      }
+      .number{
+        color:#ED3237;
+        padding: 5px;
+        border: 1px solid transparent;
+        border-bottom: 1px solid #ED3237;
+        text-decoration: none;
+        transition: 0.2s;
+      }
+      .number:hover{
+       border: 1px solid #ED3237;
+       border-radius: 7px;
+   
+      }
+      @media (max-width: 700px) {
+        .Home{
+          flex-direction: column;
+          align-items: center;
+        }
+        .hLeft{
+          width: 100%;
+        }
+        .hRight{
+                width: 80%;
+                justify-content: space-between;
+      
+        }
+        .hRight img{
+          width: 130px;
+        }
+      }
