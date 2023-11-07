@@ -7,7 +7,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Toxic',
   description: 'SANDWICH & POTATOES',
+<<<<<<< HEAD
   icons: '/next.svg'
+=======
+>>>>>>> 8acbd6b (ulp)
 }
 
 export default function RootLayout({
