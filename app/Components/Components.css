@@ -88,11 +88,10 @@
           margin: 0;
       
         }
-        .hRight img{
-          width: 377px;
-          position: relative;
-          left: -1%;
-          top: -10%;
+      .hRight img{
+          width: 105%;
+          height: 105%;
+
                 }
        
       }
