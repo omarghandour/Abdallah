@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Components.css';
+import Link from 'next/link';
 
 interface MenuItem {
   name: string;
@@ -21,7 +22,7 @@ interface MenuProps {
 const Menu: React.FC<MenuProps> = ({ menuSections }) => {
   return (
     <div className="menu-container">
-      <h1>Toxic</h1>
+      <Link href={'/'}><h1>Toxic</h1></Link>
       <div className="menu">
         {menuSections.map((section, index) => (
           <div key={index} className="menu-section">
