@@ -22,7 +22,7 @@ interface MenuProps {
 const Menu: React.FC<MenuProps> = ({ menuSections }) => {
   return (
     <div className="menu-container">
-      <Link href={'/'}><h1>Toxic</h1></Link>
+      <Link style={{color:'#ED3237'}} href={'/'}><h1>Toxic</h1></Link>
       <div className="menu">
         {menuSections.map((section, index) => (
           <div key={index} className="menu-section">
